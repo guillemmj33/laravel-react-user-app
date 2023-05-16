@@ -1,3 +1,4 @@
+import { getCardUtilityClass } from '@mui/material'
 import React from 'react'
 
 export default function Dashboard() {
@@ -5,3 +6,4 @@ export default function Dashboard() {
     <div>Dashboard</div>
   )
 }
+

@@ -37,7 +37,7 @@ export default function Signup() {
         <h1 className="title">Sign up for free</h1>
         {errors && <div className="alert alert-danger">
             {Object.keys(errors).map(key => (
-              <div key={key}>{errors[key]}</div>
+              <div key={key}>{errors[key][0]}</div>
             ))}
           </div>
         }
